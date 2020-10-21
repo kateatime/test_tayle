@@ -1,0 +1,120 @@
+.container-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container-1 .box {
+  background-color: RGB(250, 250, 250);
+  -ms-flex-preferred-size: 43%;
+      flex-basis: 43%;
+  margin-top: 2%;
+  padding: 2%;
+}
+
+.imgUrl {
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.container-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.container-1v2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container-1v2 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 2%;
+}
+
+.container-1v2 .box .block {
+  width: 18%;
+  background-color: RGB(250, 250, 250);
+}
+
+.container-1v2 .box .art {
+  width: 28%;
+  background-color: RGB(250, 250, 250);
+  text-align: center;
+}
+
+.container-1v2 .box .annotation {
+  width: 48%;
+  background-color: RGB(250, 250, 250);
+}
+
+button {
+  margin-right: 5px;
+}
+
+h3 {
+  color: red;
+  color: black;
+}
+
+.photo {
+  overflow: hidden;
+}
+
+.photo:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.page_selected {
+  background-color: grey;
+  cursor: pointer;
+  color: wight;
+  border-radius: 3px;
+  border-style: solid;
+}
+
+.buttonView {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.viewButton {
+  height: 30px;
+  width: 40%;
+}
+/*# sourceMappingURL=style.css.map */
