@@ -83,6 +83,12 @@
       align-self: center;
 }
 
+.container-1v2 .box .art .artC h3 {
+  color: black;
+  font-family: Roboto;
+  text-align: center;
+}
+
 .container-1v2 .box .annotation {
   width: 48%;
   background-color: RGB(250, 250, 250);
@@ -97,7 +103,6 @@ button {
 h3 {
   color: black;
   font-family: Roboto;
-  text-align: center;
 }
 
 p {
